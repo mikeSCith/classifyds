@@ -9,6 +9,16 @@
         android:id="@+id/mainFragment"
         android:name="com.mikesmithinc.classifyds.ui.main.MainFragment"
         android:label="main_fragment"
-        tools:layout="@layout/main_fragment" />
+        tools:layout="@layout/main_fragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_otherFragment"
+            app:destination="@id/otherFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/otherFragment"
+        android:name="com.mikesmithinc.classifyds.ui.main.AnotherFragment"
+        android:label="another_fragment"
+        tools:layout="@layout/other_layout" />
 
 </navigation>

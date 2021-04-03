@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "515203775658",
+    "firebase_url": "https://classifyds-7f4c3-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "classifyds-7f4c3",
+    "storage_bucket": "classifyds-7f4c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515203775658:android:944580d29e02b434d524d3",
+        "android_client_info": {
+          "package_name": "com.mikesmithinc.classifyds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515203775658-qnum1tuikr16o1n3bh0l9htikmfkkb64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVOoTAYruTp10ov38Tt8jQfsaK3jcbgvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515203775658-qnum1tuikr16o1n3bh0l9htikmfkkb64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

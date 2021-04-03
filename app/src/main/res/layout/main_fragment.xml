@@ -7,6 +7,7 @@
     tools:context="ui.main.MainFragment">
 
     <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
@@ -37,6 +38,16 @@
         </com.google.android.material.appbar.CollapsingToolbarLayout>
 
     </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        app:layout_anchor="@id/app_bar"
+        app:layout_anchorGravity="bottom|end"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"

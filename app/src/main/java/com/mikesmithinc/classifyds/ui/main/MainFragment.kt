@@ -27,6 +27,9 @@ class MainFragment : Fragment() {
         viewDataBinding = MainFragmentBinding.inflate(inflater, container, false)
         viewDataBinding.message.text = viewModel.getSomething()
 
+        viewDataBinding.addButton.setOnClickListener {
+            viewModel.clickAdd()
+        }
         lifecycleScope.launch {
             viewModel.getImage(
                 requireActivity(),

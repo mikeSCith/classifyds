@@ -1,0 +1,4 @@
+include ':data:image'
+include ':data:api'
+include ':app'
+rootProject.name = "Classifyds"
